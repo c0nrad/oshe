@@ -1,0 +1,176 @@
+!!! 5
+html
+  head
+    title Open Source Hardware Enterprise
+    link(rel='stylesheet', href="/css/bootstrap.min.css")
+    link(rel='stylesheet', href='/css/osh.css')
+
+  body
+    #header
+      img(src="img/logo/oshe_logo.png", width=225)
+
+      #navigation
+        ul.nav.nav-pills
+          li.active 
+            a(href="#mission") Mission
+          li 
+            a(href="#printers") Printers
+          li  
+            a(href="#crew") The Crew
+          li
+            a(href="#rates") Rates
+          li 
+            a(href="#order") Order Form
+
+    #content
+      section#mission
+        h2 The Mission
+        p.statement A student organization dedicated to the development and availability of open source hardware.
+
+
+      section#whatDoWeDo
+        h2 What Do We Do?
+        p.statement.strong We Print Awesome Stuff!
+
+        .container
+          .item
+            img(src="img/prints/others/wrench.jpg")
+          .item
+            img(src="img/prints/others/spiral.jpg")
+          .item
+            img(src="img/prints/others/music.jpg")
+          .item
+            img(src="img/prints/others/model.jpg")
+          .item
+            img(src="img/prints/others/3d-printing-schools.png")
+          .item
+            img(src="img/prints/others/a.jpg")
+          .item
+            img(src="img/prints/others/b.jpg")
+          .item
+            img(src="img/prints/others/c.jpg")  
+          .item
+            img(src="img/prints/others/d.jpg")
+          .item
+            img(src="img/prints/others/e.jpg")
+          .item
+            img(src="img/prints/others/f.jpg")
+          .item
+            img(src="img/prints/others/g.jpg")
+          .item
+            img(src="img/prints/others/h.jpg")
+          .item
+            img(src="img/prints/others/i.jpg")
+
+      //- section#projects
+      //-   h2 Projects
+      //-   .row-fluid
+      //-     .span6
+      //-       img.img-rounded(src="img/projectflow.png")
+      //-     .span6
+      //-       ul.projectList
+      //-         li distributed technologies for recycling waste such as a glass crusher and tumbler, newspaper insulation shredder, and the plastic recyclebot developed by the Michigan Tech Open Sustainability Technology Research Group
+      //-         li self-replicating rapid prototypers such as the RepRap 3D printer
+      //-         li open source scientific hardware
+      //-         li open source hardware to assist local food production
+      //-         li the use of digital fabrication of open source appropriate technology (OSAT) through cooperation with industrial research and development and non-profit organizations.
+
+      section#printers 
+        h2 The Printers
+        .row-fluid
+          .span6
+            img.img-rounded(src="img/reprap.jpg")
+            p Customized Prusa Mendel RepRap powered by an Arduino Mega.
+
+            ul.unstyled
+              li RepRap is about making self-replicating machines
+              li the most widely-used 3D printer
+              li the first of the low-cost 3D printer
+              li great for quick prototypes
+
+          .span6
+            img.img-rounded(src="img/gigabot.png")
+            p Gigabot 
+
+            ul.unstyled
+              li 600mm x 600mm x 600mm build envelope 
+              li Rigid aluminum extrusion frame 
+              li 100 micron layer resolution capability 
+              li Mechanics optimized for reliability 
+
+      section#crew
+        h2 The Crew
+        .person
+          h4 Dr. Joshua Pearce
+          img.img-rounded(src="img/crew/pearce.jpg")
+          p Faculty Advisor
+        .person
+          h4 Lucas Wilder
+          img.img-rounded(src="img/crew/lucas.jpg")
+          p Lead Student
+        .person
+          h4 Olin Johnson
+          img.img-rounded(src="img/crew/olin.jpg")
+          p Student Developer
+        .person
+          h4 Ian Peoples
+          img.img-rounded(src="img/crew/ian.jpg")
+          p Student Developer
+        .person
+          h4 Patrick Rice
+          img.img-rounded(src="img/crew/patrick.jpg")
+          p Student Developer
+        .person 
+          h4 Stuart Larsen
+          img.img-rounded(src="img/crew/stuart.jpg")
+          p Student Developer
+
+      section#rates
+        h2 Rates...? Cheap.
+
+        .row-fluid
+          .span6
+            h4 Internal (University faculty/Enterprises/Students)
+            ul 
+              li Filament at $0.25 per cm^3, with a minimum purchase of $4.00. 
+              li Design and Development for $10/hr.
+      
+          .span6
+            h4 External
+            ul 
+              li Filament at $0.25 per cm^3, with a minimum purchase of $4.00. 
+              li Design and Development for $25/hr.
+
+      section#order
+        form
+          legend Order Form
+          p If you're interested in printing a part, send us an email and we'll get back to you as soon as possible!
+          br
+
+          .row-fluid
+            .span4
+
+              .control-group
+                  label.control-label(for='inputName') Name
+                  .controls
+                    input#inputName(type='text', placeholder='John Doe')
+                .control-group
+                  label.control-label(for='inputEmail') Email
+                  .controls
+                    input#inputEmail(type='password', placeholder='jfdoe@mtu.edu')
+                .control-group
+                  .controls
+                    button.btn(type='submit') Submit Order
+            .span8
+
+              .control-group
+                label.control-label(for="inputBody") Body
+                .controls
+                  textarea#inputBody(style="width: 100%; height:200px")
+
+    #footer
+      hr
+      p Open Source Hardware Enterprise 2013
+      
+  script(src="/js/jquery.js")
+  script(src="/js/bootstrap.min.js")

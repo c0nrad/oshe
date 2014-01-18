@@ -1,0 +1,330 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/osh.styl",
+			"settings":
+			{
+				"buffer_size": 1406,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.jade",
+			"settings":
+			{
+				"buffer_size": 4394,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Makefile/Make.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/c0nrad/Projects/OSHE/Makefile",
+		"/home/c0nrad/Projects/OSHE/.hgignore",
+		"/home/c0nrad/Projects/OSHE/compile.sh",
+		"/home/c0nrad/Projects/OSHE/oshe.sublime-build",
+		"/home/c0nrad/.config/sublime-text-3/Packages/User/oshe.sublime-build",
+		"/home/c0nrad/Projects/OSH/css/osh.styl",
+		"/home/c0nrad/Projects/OSH/index.jade",
+		"/home/c0nrad/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/c0nrad/Projects/OSH/css/bootstrap.css",
+		"/home/c0nrad/Projects/OSH/js/jquery.js",
+		"/home/c0nrad/Documents/Classword/AF4001/PosistionPaper/cyberBranch.txt",
+		"/home/c0nrad/Projects/cc/posts/first50.md",
+		"/home/c0nrad/Projects/OSH/index.html",
+		"/home/c0nrad/Projects/cc/posts/groogle.md",
+		"/home/c0nrad/Projects/cc/views/about.jade",
+		"/home/c0nrad/Projects/cc/app.coffee",
+		"/home/c0nrad/Projects/cc/views/index.jade",
+		"/home/c0nrad/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/c0nrad/Projects/cc/views/projects.jade",
+		"/home/c0nrad/Projects/cc/views/layout.jade",
+		"/home/c0nrad/Projects/cc/public/conks/index.jade",
+		"/media/c0nrad/052CF8605705F9E9/Projects/wikiGame/wikiGame.py",
+		"/home/c0nrad/Projects/cc/public/css/blog.css",
+		"/home/c0nrad/Projects/cc/public/css/blog.styl",
+		"/home/c0nrad/.hgrc",
+		"/home/c0nrad/Projects/cc/posts/arch-linux.md",
+		"/home/c0nrad/Projects/cc/posts/wilfred.md",
+		"/home/c0nrad/Projects/cc/posts/sticks.md",
+		"/home/c0nrad/Projects/cc/posts/reading-teh-books.md",
+		"/home/c0nrad/Projects/cc/posts/new-blog.md",
+		"/home/c0nrad/Projects/cc/posts/im-a-programmer.md",
+		"/home/c0nrad/Projects/cc/posts/fun-python-debug-snippet.md",
+		"/home/c0nrad/Projects/cc/posts/fogcreek.md",
+		"/home/c0nrad/Projects/cc/posts/deterministic-mindset.md",
+		"/home/c0nrad/Projects/cc/public/css/test.styl",
+		"/home/c0nrad/Projects/cc/posts/dynamically-adding-class-functions.md",
+		"/home/c0nrad/Projects/cc/posts/google-plus-one.md",
+		"/home/c0nrad/Projects/cc/models/post.coffee",
+		"/home/c0nrad/Projects/cc/views/test.jade",
+		"/home/c0nrad/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"flow",
+			"flowchart",
+			"crew",
+			"h2",
+			"hr",
+			"15",
+			"150"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/osh.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1406,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1269,
+								1269
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1076.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4394,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								969,
+								969
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 414.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 39.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.502546689304,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 213.0
+	},
+	"project": "oshe.sublime-project",
+	"replace":
+	{
+		"height": 76.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"sty",
+				"css/osh.styl"
+			],
+			[
+				"boots",
+				"css/bootstrap.css"
+			],
+			[
+				"",
+				"~/Projects/OSH/index.jade"
+			],
+			[
+				"layout",
+				"views/layout.jade"
+			],
+			[
+				"blog.sty",
+				"public/css/blog.styl"
+			],
+			[
+				"app.cof",
+				"app.coffee"
+			],
+			[
+				"app.coff",
+				"app.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/resume/resume.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 153.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

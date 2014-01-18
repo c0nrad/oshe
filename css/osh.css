@@ -1,0 +1,111 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font: 1em "Helvetica Neue", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+body #header {
+  position: fixed;
+  width: 100%;
+  font-size: 1.5em;
+}
+body #header img {
+  display: inline-block;
+  float: left;
+  padding-left: 10px;
+}
+body #header #navigation ul {
+  background-color: #fff;
+}
+body #header #navigation ul li {
+  margin: 40px 5% 0px 5%;
+}
+body #content {
+  font-family: 'Lato', sans-serif;
+}
+body #content section {
+  padding: 150px;
+  text-align: center;
+  clear: both;
+  overflow: auto;
+}
+body #content section h2 {
+  font-size: 75px;
+  font-weight: 100;
+  padding-bottom: 1em;
+}
+body #content section .statement {
+  font-size: 25px;
+  font-weight: 200;
+  font-family: 'Lato', sans-serif;
+}
+body #content #mission {
+  padding-top: 230px;
+  background-color: #00c6d4;
+}
+body #content #whatDoWeDo {
+  background-color: #222;
+  color: #dbdbdb;
+}
+body #content #whatDoWeDo .statement {
+  font-size: 35px;
+}
+body #content #whatDoWeDo .container {
+  width: 100%;
+}
+body #content #whatDoWeDo .container .item {
+  display: inline-block;
+}
+body #content #whatDoWeDo .container .item img {
+  width: 400px;
+  height: 300px;
+}
+body #content #projects .projectList {
+  text-align: left;
+}
+body #content #projects .projectList li {
+  line-height: 1em;
+  font-size: 1.8em;
+}
+body #content #printers ul {
+  font-size: 30px;
+}
+body #content #printers ul li {
+  line-height: 50px;
+}
+body #content #printers img {
+  width: 800px;
+  height: 800px;
+}
+body #content #printers .printerDescription {
+  font-size: 1.8em;
+  text-align: left;
+}
+body #content #crew {
+  background-color: #b5ccff;
+}
+body #content #crew .person {
+  display: inline-block;
+  padding: 25px;
+}
+body #content #crew .person img {
+  width: 200px;
+  height: 200px;
+}
+body #content #rates {
+  background-color: #ebebeb;
+}
+body #content #rates ul {
+  list-style-type: none;
+}
+body #content #order {
+  text-align: left;
+}
+body #content #order background-color: #069 textarea {
+  width: 100%;
+}
+body #footer {
+  text-align: center;
+}
