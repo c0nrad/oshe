@@ -100,12 +100,6 @@ body #content #rates {
 body #content #rates ul {
   list-style-type: none;
 }
-body #content #order {
-  text-align: left;
-}
-body #content #order background-color: #069 textarea {
-  width: 100%;
-}
 body #footer {
   text-align: center;
 }

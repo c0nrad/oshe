@@ -11,15 +11,26 @@
 			"file": "css/osh.styl",
 			"settings":
 			{
-				"buffer_size": 1406,
+				"buffer_size": 1821,
 				"line_ending": "Unix"
 			}
 		},
 		{
+			"contents": "!!! 5\nhtml\n  head\n    title Open Source Hardware Enterprise\n    link(rel='stylesheet', href=\"/css/bootstrap.min.css\")\n    link(rel='stylesheet', href='/css/osh.css')\n\n  body\n    #header\n      img(src=\"img/logo/oshe_logo.png\", width=225)\n\n      #navigation\n        ul.nav.nav-pills\n          li.active \n            a(href=\"#mission\") Mission\n          li \n            a(href=\"#printers\") Printers\n          li  \n            a(href=\"#crew\") The Crew\n          li\n            a(href=\"#rates\") Rates\n          li \n            a(href=\"#order\") Order Form\n\n    #content\n      section#mission\n        h2 The Mission\n        p.statement A student organization dedicated to the development and availability of open source hardware.\n\n\n      section#whatDoWeDo\n        h2 What Do We Do?\n        p.statement.strong We Print Awesome Stuff!\n\n        .container\n          .item\n            img(src=\"img/prints/others/wrench.jpg\")\n          .item\n            img(src=\"img/prints/others/spiral.jpg\")\n          .item\n            img(src=\"img/prints/others/music.jpg\")\n          .item\n            img(src=\"img/prints/others/model.jpg\")\n          .item\n            img(src=\"img/prints/others/3d-printing-schools.png\")\n          .item\n            img(src=\"img/prints/others/a.jpg\")\n          .item\n            img(src=\"img/prints/others/b.jpg\")\n          .item\n            img(src=\"img/prints/others/c.jpg\")  \n          .item\n            img(src=\"img/prints/others/d.jpg\")\n          .item\n            img(src=\"img/prints/others/e.jpg\")\n          .item\n            img(src=\"img/prints/others/f.jpg\")\n          .item\n            img(src=\"img/prints/others/g.jpg\")\n          .item\n            img(src=\"img/prints/others/h.jpg\")\n          .item\n            img(src=\"img/prints/others/i.jpg\")\n\n      //- section#projects\n      //-   h2 Projects\n      //-   .row-fluid\n      //-     .span6\n      //-       img.img-rounded(src=\"img/projectflow.png\")\n      //-     .span6\n      //-       ul.projectList\n      //-         li distributed technologies for recycling waste such as a glass crusher and tumbler, newspaper insulation shredder, and the plastic recyclebot developed by the Michigan Tech Open Sustainability Technology Research Group\n      //-         li self-replicating rapid prototypers such as the RepRap 3D printer\n      //-         li open source scientific hardware\n      //-         li open source hardware to assist local food production\n      //-         li the use of digital fabrication of open source appropriate technology (OSAT) through cooperation with industrial research and development and non-profit organizations.\n\n      section#printers \n        h2 The Printers\n        .row-fluid\n          .span6\n            img.img-rounded(src=\"img/reprap.jpg\")\n            p Customized Prusa Mendel RepRap powered by an Arduino Mega.\n\n            ul.unstyled\n              li RepRap is about making self-replicating machines\n              li the most widely-used 3D printer\n              li the first of the low-cost 3D printer\n              li great for quick prototypes\n\n          .span6\n            img.img-rounded(src=\"img/gigabot.png\")\n            p Gigabot \n\n            ul.unstyled\n              li 600mm x 600mm x 600mm build envelope \n              li Rigid aluminum extrusion frame \n              li 100 micron layer resolution capability \n              li Mechanics optimized for reliability \n\n      section#crew\n        h2 The Crew\n        .person\n          h4 Dr. Joshua Pearce\n          img.img-rounded(src=\"img/crew/pearce.jpg\")\n          p Faculty Advisor\n        .person\n          h4 Lucas Wilder\n          img.img-rounded(src=\"img/crew/lucas.jpg\")\n          p Lead Student\n        .person\n          h4 Olin Johnson\n          img.img-rounded(src=\"img/crew/olin.jpg\")\n          p Student Developer\n        .person\n          h4 Ian Peoples\n          img.img-rounded(src=\"img/crew/ian.jpg\")\n          p Student Developer\n        .person\n          h4 Patrick Rice\n          img.img-rounded(src=\"img/crew/patrick.jpg\")\n          p Student Developer\n        .person \n          h4 Stuart Larsen\n          img.img-rounded(src=\"img/crew/stuart.jpg\")\n          p Student Developer\n\n      section#rates\n        h2 Rates...? Cheap.\n\n        .row-fluid\n          .span6  \n            h4 Internal (University faculty/Enterprises/Students)\n            ul \n              li Filament at $0.25 per cm^3, with a minimum purchase of $4.00. \n              li Design and Development for $10/hr.\n      \n          .span6\n            h4 External\n            ul \n              li Filament at $0.25 per cm^3, with a minimum purchase of $4.00. \n              li Design and Development for $25/hr.\n\n      section#order\n        form\n          legend Order Form\n          p If you're interested in printing a part, send us an email and we'll get back to you as soon as possible!\n          br\n\n          .row-fluid\n            .span4\n\n              .control-group\n                  label.control-label(for='inputName') Name\n                  .controls\n                    input#inputName(type='text', placeholder='John Doe')\n                .control-group\n                  label.control-label(for='inputEmail') Email\n                  .controls\n                    input#inputEmail(type='password', placeholder='jfdoe@mtu.edu')\n                .control-group\n                  .controls\n                    button.btn(type='submit') Submit Order\n            .span8\n\n              .control-group\n                label.control-label(for=\"inputBody\") Body\n                .controls\n                  textarea#inputBody(style=\"width: 100%; height:200px\")\n\n    #footer\n      hr\n      p Open Source Hardware Enterprise 2013\n      \n  script(src=\"/js/jquery.js\")\n  script(src=\"/js/bootstrap.min.js\")",
 			"file": "index.jade",
+			"file_size": 5762,
+			"file_write_time": 130345531426543647,
 			"settings":
 			{
-				"buffer_size": 4394,
+				"buffer_size": 5764,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 60,
 				"line_ending": "Unix"
 			}
 		}
@@ -60,6 +71,7 @@
 	},
 	"file_history":
 	[
+		"/home/c0nrad/Projects/OSHE/js/masonry.min.js",
 		"/home/c0nrad/Projects/OSHE/Makefile",
 		"/home/c0nrad/Projects/OSHE/.hgignore",
 		"/home/c0nrad/Projects/OSHE/compile.sh",
@@ -103,7 +115,7 @@
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -117,6 +129,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ul",
 			"flow",
 			"flowchart",
 			"crew",
@@ -150,25 +163,129 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1406,
+						"buffer_size": 1821,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1269,
-								1269
+								1121,
+								1121
 							]
 						],
 						"settings":
 						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
 							"syntax": "Packages/Stylus/Stylus.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1076.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -176,7 +293,7 @@
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -185,25 +302,156 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4394,
+						"buffer_size": 5764,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								969,
-								969
+								4262,
+								4262
 							]
 						],
 						"settings":
 						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 414.0,
+						"translation.y": 1598.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Makefile",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 60,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -239,7 +487,7 @@
 		"cols":
 		[
 			0.0,
-			0.502546689304,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -302,7 +550,7 @@
 		[
 			[
 				"",
-				"~/Projects/resume/resume.sublime-project"
+				"~/go/src/lifetracker-go/lt.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -322,7 +570,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 153.0,
+	"side_bar_width": 203.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
