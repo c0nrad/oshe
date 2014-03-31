@@ -100,6 +100,10 @@ body #content #rates {
 body #content #rates ul {
   list-style-type: none;
 }
+body #content #priceNote {
+  background-color: #ebebeb;
+  text-align: right;
+}
 body #footer {
   text-align: center;
 }
