@@ -12,9 +12,9 @@ head
 
   body
     #layout
-      
+
       a#menuLink.menu-link(href='#menu')
-      
+
         span
       #menu
         .pure-menu.pure-menu-open
@@ -28,12 +28,12 @@ head
               a(href='#what') What do we do?
             li
               a(href='#rates') Rates
-            li 
+            li
               a(href="#crew") The Crew
             li
-              a(href="#future") Future 
-            li 
-              a(href="#order") Order Form 
+              a(href="#future") Future
+            li
+              a(href="#order") Order Form
       #main
 
 
@@ -42,10 +42,10 @@ head
           h2 A student organization dedicated to the development and availability of open source hardware.
         .content
 
-          br 
+          br
 
           div.alert.alert-danger(style="text-align: center")
-            p 
+            p
               strong OSHE is closed for the summer. We'll be back in the fall!
 
           h2.content-subhead#who Who are we?
@@ -69,24 +69,21 @@ head
           h2.content-subhead#rates Rates
           table.pure-table.pure-table-horizontal(style="width: 100%; text-align: center;")
             thead
-              tr 
+              tr
                 th Group Type
-                th Filament 
+                th Filament
                 th Design and Development
-                th Minimum 
 
-            tbody 
-              tr 
+            tbody
+              tr
                 td Internal (University)
-                td $0.25 per cm^3
+                td $0.05 per gram
                 td $10/hr
-                td $4
-              tr 
+              tr
                 td External (Non-university related)
-                td $0.25 per cm^3
+                td $0.10 per gram
                 td $25/hr
-                td $4
-            
+
           h2.content-subhead#crew The Crew
           .person
             h4 Dr. Joshua Pearce
@@ -108,20 +105,20 @@ head
             h4 Patrick Rice
             img.img-rounded(src="img/crew/patrick.jpg")
             p Student Developer
-          .person 
+          .person
             h4 Stuart Larsen
             img.img-rounded(src="img/crew/stuart.jpg")
             p Student Developer
 
           h2.content-subhead#future Future
           p We believe OSHE has a very bright future. We’ve decided to start building our foundations strong so that we can tackle a wide range of problems, and offer an even wider range of solutions. Current future projects include:
-          ul 
+          ul
             li Building more 3D printers
             li Becoming more involved in Open Source Ecology
             li Hosting workshops on Open Source Ideology
             li Designing/Building a wide range of solutions for customers
             li Building demonstration products for the community
-              ul 
+              ul
                 li Quadcopter
                 li RFID proof 3D-printed wallets
                 li Phone cases
@@ -138,9 +135,9 @@ head
       }
 
 
-      $('.pure-menu ul li').each(function(){ 
-        $(this).click(function(){ 
+      $('.pure-menu ul li').each(function(){
+        $(this).click(function(){
           deActive();
           $(this).addClass("pure-menu-selected");
-        }); 
-      }); 
+        });
+      });
